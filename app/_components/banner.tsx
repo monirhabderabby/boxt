@@ -1,11 +1,10 @@
+import BannerAnim from "@/components/shared/banner-anim";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
-import bee from "../../public/bee.jpg";
 
 const Banner = () => {
   return (
     <div className="h-[calc(100vh-80px)] container mx-auto grid grid-cols-2 gap-5 w-full items-center">
-      <Image src={bee} height={200} width={500} alt="Bee" />
+      <BannerAnim />
 
       <div className="bg-red-500/70 w-full rounded-2xl p-10 space-y-5">
         <h1 className="font-bold text-white text-[48px]">
