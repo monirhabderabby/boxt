@@ -6,7 +6,7 @@ const Banner = () => {
     <div className="h-[calc(100vh-80px)] container mx-auto grid grid-cols-2 gap-5 w-full items-center">
       <BannerAnim />
 
-      <div className="bg-red-500/70 w-full rounded-2xl p-10 space-y-5">
+      <div className="bg-orange-500 w-full rounded-2xl p-10 space-y-5">
         <h1 className="font-bold text-white text-[48px]">
           Save £125 on all boilers this BOXTing Day
         </h1>

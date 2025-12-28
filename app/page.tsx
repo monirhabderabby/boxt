@@ -1,4 +1,5 @@
 import Banner from "./_components/banner";
+import HowItWorks from "./_components/how-it-work";
 import OurPartners from "./_components/our-partner";
 import Product from "./_components/product";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Banner />
       <OurPartners />
       <Product />
+      <HowItWorks />
     </div>
   );
 }
