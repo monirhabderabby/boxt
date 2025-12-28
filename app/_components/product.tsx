@@ -12,9 +12,9 @@ const Product = () => {
     <div className="container mx-auto px-4">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         <Card className="overflow-hidden">
-          <div className="flex flex-col md:flex-row items-center gap-6 p-6">
+          <div className="flex flex-col lg:flex-row items-center gap-6 p-6">
             {/* Content */}
-            <div className="flex-1">
+            <div className="flex-1 w-full">
               <CardHeader className="p-0 space-y-3">
                 <p className="text-lg font-medium text-orange-500">
                   🔥 Boiler Installation
@@ -35,7 +35,7 @@ const Product = () => {
             </div>
 
             {/* Image */}
-            <div className="relative w-full md:w-55 aspect-3/4">
+            <div className="relative w-full lg:w-55 aspect-3/4">
               <Image
                 src="/products/boiler.webp"
                 alt="Boiler"
@@ -49,9 +49,9 @@ const Product = () => {
         </Card>
 
         <Card className="overflow-hidden">
-          <div className="flex flex-col md:flex-row items-center gap-6 p-6">
+          <div className="flex flex-col lg:flex-row items-center gap-6 p-6">
             {/* Content */}
-            <div className="flex-1">
+            <div className="flex-1 w-full">
               <CardHeader className="p-0 space-y-3">
                 <p className="text-lg font-medium text-orange-500">
                   🛠 Boiler Repair
@@ -72,7 +72,7 @@ const Product = () => {
             </div>
 
             {/* Image */}
-            <div className="relative w-full md:w-55 aspect-3/4">
+            <div className="relative w-full lg:w-55 aspect-3/4">
               <Image
                 src="/products/repair.jpg"
                 alt="Boiler"
@@ -86,9 +86,9 @@ const Product = () => {
         </Card>
 
         <Card className="overflow-hidden">
-          <div className="flex flex-col md:flex-row items-center gap-6 p-6">
+          <div className="flex flex-col lg:flex-row items-center gap-6 p-6">
             {/* Content */}
-            <div className="flex-1">
+            <div className="flex-1 w-full">
               <CardHeader className="p-0 space-y-3">
                 <p className="text-lg font-medium text-orange-500">
                   📋 Service Plan
@@ -109,7 +109,7 @@ const Product = () => {
             </div>
 
             {/* Image */}
-            <div className="relative w-full md:w-55 aspect-3/4">
+            <div className="relative w-full lg:w-55 aspect-3/4">
               <Image
                 src="/products/service_plan.jpg"
                 alt="Boiler"
@@ -123,9 +123,9 @@ const Product = () => {
         </Card>
 
         <Card className="overflow-hidden">
-          <div className="flex flex-col md:flex-row items-center gap-6 p-6">
+          <div className="flex flex-col lg:flex-row items-center gap-6 p-6">
             {/* Content */}
-            <div className="flex-1">
+            <div className="flex-1 w-full">
               <CardHeader className="p-0 space-y-3">
                 <p className="text-lg font-medium text-orange-500">
                   🏠 Landlord Gas Safety Certificate
@@ -145,7 +145,7 @@ const Product = () => {
             </div>
 
             {/* Image */}
-            <div className="relative w-full md:w-55 aspect-3/4">
+            <div className="relative w-full lg:w-55 aspect-3/4">
               <Image
                 src="/products/lanlord.jpg"
                 alt="Boiler"
@@ -159,9 +159,9 @@ const Product = () => {
         </Card>
 
         <Card className="overflow-hidden">
-          <div className="flex flex-col md:flex-row items-center gap-6 p-6">
+          <div className="flex flex-col lg:flex-row items-center gap-6 p-6">
             {/* Content */}
-            <div className="flex-1">
+            <div className="flex-1 w-full">
               <CardHeader className="p-0 space-y-3">
                 <p className="text-lg font-medium text-orange-500">
                   🪟 Windows
@@ -181,7 +181,7 @@ const Product = () => {
             </div>
 
             {/* Image */}
-            <div className="relative w-full md:w-55 aspect-3/4">
+            <div className="relative w-full lg:w-55 aspect-3/4">
               <Image
                 src="/products/windows.jpg"
                 alt="Boiler"

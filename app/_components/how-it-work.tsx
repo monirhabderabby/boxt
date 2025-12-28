@@ -73,7 +73,7 @@ export default function HowItWorks() {
                   {step.title}
                 </h3>
 
-                <p className="text-white/70 leading-relaxed text-sm lg:text-base max-w-[280px]">
+                <p className="text-white/70 leading-relaxed text-sm lg:text-base max-w-70">
                   {step.description}
                 </p>
               </div>
