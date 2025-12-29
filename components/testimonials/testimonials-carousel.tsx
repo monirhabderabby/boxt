@@ -36,6 +36,12 @@ const TestimonialsCarousel = ({ data }: { data: Testimonial[] }) => {
         api.on("select", () => {
             setCurrent(api.selectedScrollSnap() + 1);
         });
+
+        return () => {
+            api.off("select", () => {
+                setCurrent(api.selectedScrollSnap() + 1);
+            });
+        };
     }, [api]);
 
     const Star = () => <span className="text-emerald-500 text-xl">★</span>;
