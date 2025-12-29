@@ -1,3 +1,4 @@
+import SmoothScrolling from "@/components/providers/smooth-scroll";
 import Footer from "@/components/shared/footer";
 import Navbar from "@/components/shared/navbar";
 import type { Metadata } from "next";
@@ -20,13 +21,16 @@ export default function RootLayout({
 }: Readonly<{
     children: React.ReactNode;
 }>) {
-    return (
-        <html lang="en">
-            <body className={`${sofia.className}  antialiased`}>
-                <Navbar />
-                {children}
-                <Footer />
-            </body>
-        </html>
-    );
+
+  return (
+    <html lang="en">
+      <body className={`${sofia.className}  antialiased`}>
+        <SmoothScrolling>
+          <Navbar />
+          {children}
+          <Footer />
+        </SmoothScrolling>
+      </body>
+    </html>
+  );
 }
