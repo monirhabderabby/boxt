@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Banner = () => {
   return (
-    <div className="h-[calc(100vh-80px)] container mx-auto grid grid-cols-2 gap-5 w-full items-center">
+    <div className="h-[calc(100vh-80px)] container mx-auto grid grid-cols-1 md:grid-cols-2 gap-5 w-full items-center">
       <BannerAnim />
 
       <div className="bg-orange-500 w-full rounded-2xl p-10 space-y-5">
