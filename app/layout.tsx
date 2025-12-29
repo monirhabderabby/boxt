@@ -1,3 +1,4 @@
+import SmoothScrolling from "@/components/providers/smooth-scroll";
 import Footer from "@/components/shared/footer";
 import Navbar from "@/components/shared/navbar";
 import type { Metadata } from "next";
@@ -22,9 +23,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${sofia.className}  antialiased`}>
-        <Navbar />
-        {children}
-        <Footer />
+        <SmoothScrolling>
+          <Navbar />
+          {children}
+          <Footer />
+        </SmoothScrolling>
       </body>
     </html>
   );
