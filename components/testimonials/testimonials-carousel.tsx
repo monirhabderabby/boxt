@@ -65,7 +65,7 @@ const TestimonialsCarousel = ({ data }: { data: Testimonial[] }) => {
                 setApi={setApi}
                 className="w-full mb-8 sm:mb-12"
             >
-                <CarouselContent className="-ml-2 sm:-ml-3 md:-ml-4">
+                <CarouselContent className="-ml-2 sm:-ml-3 md:-ml-4 pt-2">
                     {data.map((testimonial) => (
                         <CarouselItem
                             key={testimonial.id}
