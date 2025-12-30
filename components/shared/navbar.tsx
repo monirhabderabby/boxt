@@ -49,29 +49,11 @@ export default function Navbar() {
       <h1>BOXT</h1>
       <NavigationMenu viewport={isMobile}>
         <NavigationMenuList className="flex-wrap">
-          <NavigationMenuItem>
-            <NavigationMenuTrigger>Home</NavigationMenuTrigger>
-            <NavigationMenuContent>
-              <ul className="grid gap-2 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]">
-                <li className="row-span-3">
-                  <NavigationMenuLink asChild>fdf</NavigationMenuLink>
-                </li>
-                <ListItem href="/docs" title="Introduction">
-                  Re-usable components built using Radix UI and Tailwind CSS.
-                </ListItem>
-                <ListItem href="/docs/installation" title="Installation">
-                  How to install dependencies and structure your app.
-                </ListItem>
-                <ListItem href="/docs/primitives/typography" title="Typography">
-                  Styles for headings, paragraphs, lists...etc
-                </ListItem>
-              </ul>
-            </NavigationMenuContent>
-          </NavigationMenuItem>
+          <NavigationMenuItem>Home</NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuTrigger>Advice & Faqs</NavigationMenuTrigger>
             <NavigationMenuContent>
-              <ul className="grid gap-2 sm:w-[400px] md:w-[500px] md:grid-cols-2 lg:w-[600px]">
+              <ul className="grid gap-2 sm:w-100 md:w-125 md:grid-cols-2 lg:w-150">
                 {components.map((component) => (
                   <ListItem
                     key={component.title}
@@ -87,7 +69,7 @@ export default function Navbar() {
           <NavigationMenuItem className="hidden md:block">
             <NavigationMenuTrigger>About BOXT</NavigationMenuTrigger>
             <NavigationMenuContent>
-              <ul className="grid grid-cols-2 w-[500px] gap-4">
+              <ul className="grid grid-cols-2 w-125 gap-4">
                 <li>
                   <NavigationMenuLink asChild>
                     <Link href="#">
