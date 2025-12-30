@@ -15,7 +15,9 @@ const Banner = () => {
           with finance options² and next working day installation³ available.
         </p>
 
-        <Button>Get your fixed price</Button>
+        <Button className="bg-background text-primary hover:bg-white/90 cursor-pointer">
+          Get your fixed price
+        </Button>
       </div>
     </div>
   );

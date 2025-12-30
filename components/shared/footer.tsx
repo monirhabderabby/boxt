@@ -85,7 +85,7 @@ const Footer = () => {
   return (
     <footer className="text-white border-t border-neutral-800">
       {/* Promo text */}
-      <div className="italic text-base text-center my-12 space-y-4 text-white/70">
+      <div className="italic text-base text-center my-12 space-y-4 text-primary">
         <p>
           <sup>1</sup>Terms and conditions apply to $125 discount promo code.
           Click here to learn more.
@@ -123,7 +123,7 @@ const Footer = () => {
                     </span>
                   ))}
                 </div>
-                <p className="text-xs text-white/70">
+                <p className="text-xs text-primary">
                   TrustScore 4.8{" "}
                   <Link href="#" className="underline">
                     52,304 reviews
@@ -132,12 +132,12 @@ const Footer = () => {
               </div>
 
               {/* Company Address */}
-              <p className="text-base text-white/70 leading-relaxed">
+              <p className="text-base text-primary leading-relaxed">
                 BOXT Limited, 3320 Century Way, Thorpe Park, Leeds, West
                 Yorkshire, LS15 8ZB.
               </p>
 
-              <div className="flex items-center gap-x-2 mt-5 text-base text-white/70 leading-relaxed">
+              <div className="flex items-center gap-x-2 mt-5 text-base text-primary leading-relaxed">
                 <Phone className="size-4" /> 01382666777
               </div>
             </div>
@@ -148,7 +148,7 @@ const Footer = () => {
                 <Link
                   key={index}
                   href={link.href}
-                  className="text-white/70 hover:text-orange-500 transition p-3 rounded-full border-2 border-neutral-400/25"
+                  className="text-primary hover:text-orange-500 transition p-3 rounded-full border-2 border-neutral-400/25"
                   aria-label={link.ariaLabel}
                 >
                   <link.icon className="w-5 h-5" />
@@ -168,7 +168,7 @@ const Footer = () => {
                   <Link
                     key={linkIndex}
                     href={link.href}
-                    className="text-base text-white/70 hover:text-orange-500 transition underline"
+                    className="text-base text-primary hover:text-orange-500 transition underline"
                   >
                     {link.text}
                   </Link>
@@ -198,19 +198,19 @@ const Footer = () => {
           <div className="flex flex-wrap gap-4 text-base">
             <Link
               href="#"
-              className="text-white/70 hover:text-orange-500 transition underline"
+              className="text-primary hover:text-orange-500 transition underline"
             >
               BOXT Cookies policy
             </Link>
             <Link
               href="#"
-              className="text-white/70 hover:text-orange-500 transition underline"
+              className="text-primary hover:text-orange-500 transition underline"
             >
               Privacy policy
             </Link>
             <Link
               href="#"
-              className="text-white/70 hover:text-orange-500 transition underline"
+              className="text-primary hover:text-orange-500 transition underline"
             >
               Modern Slavery Statement | BOXT
             </Link>
