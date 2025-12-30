@@ -34,7 +34,7 @@ const steps = [
 export default function HowItWorks() {
   return (
     <section className="py-16 px-4 md:px-6 lg:px-8 max-w-7xl mx-auto">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-12">
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-primary mb-12">
         How does BOXT work?
       </h2>
 
@@ -65,15 +65,15 @@ export default function HowItWorks() {
                   <div className="md:hidden absolute top-12 left-1/2 -translate-x-1/2 w-0.5 h-16 bg-gray-200 -z-10" />
                 )} */}
 
-                <div className="w-8 h-8 rounded-full bg-[#e3544c] text-white flex items-center justify-center text-sm font-bold mb-4 z-10">
+                <div className="w-8 h-8 rounded-full bg-[#e3544c] text-primary flex items-center justify-center text-sm font-bold mb-4 z-10">
                   {step.number}
                 </div>
 
-                <h3 className="text-xl font-bold text-white mb-3">
+                <h3 className="text-xl font-bold text-primary mb-3">
                   {step.title}
                 </h3>
 
-                <p className="text-white/70 leading-relaxed text-sm lg:text-base max-w-70">
+                <p className="text-primary leading-relaxed text-sm lg:text-base max-w-70">
                   {step.description}
                 </p>
               </div>
